@@ -3,7 +3,6 @@
 import NavBar from "@/components/navBar";
 import Landing from "@/components/landing";
 import Experience from "@/components/experience";
-import Skills from "@/components/skills";
 import Projects from "@/components/projects";
 import Footer from "@/components/footer";
 
@@ -13,7 +12,6 @@ const Home = () => {
       <NavBar />
       <Landing />
       <Experience />
-      <Skills />
       <Projects />
       <Footer />
     </div>

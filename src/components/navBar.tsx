@@ -7,7 +7,6 @@ import { useState } from "react";
 
 const navigations = [
   { name: "Experience", link: "#experience" },
-  { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
