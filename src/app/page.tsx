@@ -2,7 +2,6 @@
 
 import NavBar from "@/components/navBar";
 import Landing from "@/components/landing";
-import Intro from "@/components/intro";
 import Experience from "@/components/experience";
 import Skills from "@/components/skills";
 import Projects from "@/components/projects";
@@ -13,7 +12,6 @@ const Home = () => {
     <div className="bg-portfolio-white">
       <NavBar />
       <Landing />
-      <Intro />
       <Experience />
       <Skills />
       <Projects />
