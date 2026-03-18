@@ -17,13 +17,13 @@ const NavBar = () => {
   const path = usePathname();
 
   return (
-    <nav className="font-portfolio-poppins bg-portfolio-black text-portfolio-white fixed z-50 w-full shadow-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <div className="text-xl font-bold hover:text-blue-400">
-          <Link href="#home">Home</Link>
+    <nav className="bg-portfolio-white text-portfolio-black fixed z-50 w-full shadow-md">
+      <div className="flex items-center justify-between px-9 py-4">
+        <div className="font-portfolio-instrument-serif text-2xl font-bold italic hover:text-blue-400">
+          <Link href="#home">Yubin Zhen</Link>
         </div>
 
-        <div className="hidden gap-6 text-lg md:flex">
+        <div className="font-portfolio-sans-serif hidden gap-6 text-xl md:flex">
           {navigations.map(({ name, link }, index) => (
             <Link
               key={index}
@@ -42,13 +42,13 @@ const NavBar = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <span
-            className={`block h-1 w-6 bg-white transition-transform duration-300 ${isOpen ? "translate-y-2 rotate-45" : ""}`}
+            className={`bg-portfolio-black block h-1 w-6 transition-transform duration-300 ${isOpen ? "translate-y-2 rotate-45" : ""}`}
           />
           <span
-            className={`block h-1 w-6 bg-white transition-opacity duration-300 ${isOpen ? "opacity-0" : ""}`}
+            className={`bg-portfolio-black block h-1 w-6 transition-opacity duration-300 ${isOpen ? "opacity-0" : ""}`}
           />
           <span
-            className={`block h-1 w-6 bg-white transition-transform duration-300 ${isOpen ? "-translate-y-4 -rotate-45" : ""}`}
+            className={`bg-portfolio-black block h-1 w-6 transition-transform duration-300 ${isOpen ? "-translate-y-4 -rotate-45" : ""}`}
           />
         </div>
       </div>
@@ -58,14 +58,14 @@ const NavBar = () => {
         animate={
           isOpen ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }
         }
-        className="bg-portfolio-black flex flex-col items-center overflow-hidden md:hidden"
+        className="bg-portfolio-white flex flex-col items-center overflow-hidden md:hidden"
       >
         {navigations.map(({ name, link }, index) => (
           <Link
             key={index}
             href={link}
             onClick={() => setIsOpen(false)}
-            className={`block w-full py-3 text-center text-lg hover:text-blue-400 ${
+            className={`block w-full py-3 text-center text-lg hover:text-blue-400 border-t-1${
               path === link ? "text-blue-400" : ""
             }`}
           >

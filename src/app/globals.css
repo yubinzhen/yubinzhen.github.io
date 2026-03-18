@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;700&family=DM+Mono:wght@300;400;500&display=swap");
 
 @import "tailwindcss";
 
 @theme {
-  --color-portfolio-gray: #c5c5c5;
-  --color-portfolio-darkgray: #2a2a2a;
-  --color-portfolio-black: #161513;
-  --color-portfolio-white: #ffffff;
+  --color-portfolio-gray: #6a7282;
+  --color-portfolio-darkgray: #4a5565;
+  --color-portfolio-lightgray: #d1d5dc;
+  --color-portfolio-black: #060810;
+  --color-portfolio-white: #fafaf8;
 
   --font-portfolio-poppins: "Poppins", serif;
+  --font-portfolio-instrument-serif: "Instrument Serif", serif;
+  --font-portfolio-sans-serif: "DM Sans", sans-serif;
+  --font-portfolio-mono: "DM Mono", monospace;
 }

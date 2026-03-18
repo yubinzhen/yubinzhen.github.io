@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 
 const Home = () => {
   return (
-    <div className="bg-portfolio-darkgray font-portfolio-poppins">
+    <div className="bg-portfolio-white">
       <NavBar />
       <Landing />
       <Intro />
