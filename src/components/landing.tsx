@@ -13,7 +13,7 @@ const Landing = () => {
           className="h-50 w-50 rounded-2xl object-cover shadow-lg"
         />
       </div>
-      <div className="flex min-h-screen justify-center px-6 md:px-12">
+      <div className="flex h-screen justify-center px-6 md:px-12">
         <div className="flex max-w-6xl flex-col items-center justify-between gap-12 md:flex-row">
           <div className="flex-1">
             <div className="text-portfolio-gray mb-4 text-sm">
@@ -21,7 +21,7 @@ const Landing = () => {
             </div>
 
             <div className="font-portfolio-instrument-serif text-5xl font-extrabold md:text-7xl">
-              Yubin <br />
+              Yubin
               <div className="italic">Zhen</div>
             </div>
 
