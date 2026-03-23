@@ -45,7 +45,7 @@ const projects = [
     description:
       "Project Lead and SCRUM Master, overseeing 10+ developers to design and deploy the site.",
     image: archeryProject,
-    link: "",
+    link: "https://github.com/acm-ucr/archery-website",
     tags: ["Next.js", "Figma", "TypeScript", "TailwindCSS"],
   },
   {
