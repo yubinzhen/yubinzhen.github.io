@@ -89,7 +89,7 @@ const Experience = () => {
   return (
     <div id="experience" className="px-6 py-20 sm:px-12 lg:px-36">
       <motion.div
-        className="font-portfolio-instrument-serif text-portfolio-black mb-12 text-4xl font-extrabold sm:text-5xl"
+        className="font-portfolio-instrument-serif text-portfolio-black mb-12 flex justify-center text-4xl font-extrabold sm:text-5xl"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
