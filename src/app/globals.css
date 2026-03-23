@@ -15,3 +15,7 @@
   --font-portfolio-sans-serif: "DM Sans", sans-serif;
   --font-portfolio-mono: "DM Mono", monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
