@@ -69,12 +69,12 @@ const Landing = () => {
 
             <div className="mt-16 flex flex-wrap gap-10">
               <div>
-                <div className="text-2xl font-semibold">3.81</div>
+                <div className="text-2xl font-semibold">3.82</div>
                 <div className="text-sm text-gray-500">GPA</div>
               </div>
 
               <div>
-                <div className="text-2xl font-semibold">20+</div>
+                <div className="text-2xl font-semibold">30+</div>
                 <div className="text-sm text-gray-500">Devs led</div>
               </div>
 
