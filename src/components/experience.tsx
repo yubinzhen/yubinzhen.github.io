@@ -26,7 +26,7 @@ const experiences = [
     org: "UCR Geospacial Assessibility Lab",
     positions: [
       {
-        title: "Undergraduate Research Assistant",
+        title: "Undergraduate Researcher",
         date: "Jan 2026 — Present",
         bullets: [
           "Performing data validation for a large-scale Geospatial AI dataset, manually verifying and correcting 8,000+ LLM-generated questions and answers to improve model accuracy.",
@@ -67,7 +67,7 @@ const experiences = [
     positions: [
       {
         title: "Software Engineering Lead",
-        date: "Jan 2026 — Present",
+        date: "Jan 2026 — Jun 2026",
         bullets: [
           "Directing the technical development of the hackathon portal, leading a team of 10+ software engineers.",
           "Assigning development tasks and conducting comprehensive code reviews to ensure platform stability.",

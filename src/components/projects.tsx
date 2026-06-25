@@ -14,6 +14,7 @@ import cutieHackProject from "@/public/cutieHackProject.webp";
 import citrusHackProject from "@/public/citrusHackProject.webp";
 import archeryProject from "@/public/archeryProject.webp";
 import mockTrailProject from "@/public/mockTrialProject.webp";
+import royalHeartHouseProject from "@/public/royalHeartHouseProject.webp";
 
 const fadeUpVariant: Variants = {
   hidden: { opacity: 0, y: 30 },
@@ -25,6 +26,14 @@ const fadeUpVariant: Variants = {
 };
 
 const projects = [
+  {
+    title: "Royal Heart House",
+    description:
+      "Architected a full-stack website for the Royal Heart House, a small business in the SGV.",
+    image: royalHeartHouseProject,
+    link: "https://royalhearthouse.vercel.app",
+    tags: ["Figma", "TypeScript", "Stripe", "Next.js"],
+  },
   {
     title: "CookCraft",
     description:
