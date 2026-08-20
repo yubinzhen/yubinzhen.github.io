@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="hidden md:block">© Yubin Zhen</div>
       <div className="flex items-center gap-2">
         <div className="bg-portfolio-black inline-block h-1.5 w-1.5 rounded-full" />
-        Last updated June 25, 2026
+        Last updated August 19, 2026
         <div className="bg-portfolio-black inline-block h-1.5 w-1.5 rounded-full" />
       </div>
       <div className="hidden md:block">Portfolio</div>

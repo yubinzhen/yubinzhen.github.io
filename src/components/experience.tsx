@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion, Variants } from "motion/react";
+import LLNLLogo from "@/public/llnlLogo.webp";
 import UCRLogo from "@/public/ucrLogo.webp";
 import ACMLogo from "@/public/acmLogo.webp";
 import CitrusHackLogo from "@/public/citrusHackLogo.webp";
@@ -21,6 +22,22 @@ const fadeUpVariant: Variants = {
 
 const experiences = [
   {
+    logo: LLNLLogo,
+    logoAlt: "LLNL Logo",
+    org: "Lawrence Livermore National Laboratory",
+    positions: [
+      {
+        title: "AI & Data Science Intern",
+        date: "Jul 2026 — Aug 2026",
+        bullets: [
+          "Built an agentic scientific workflow using Python, Model Context Protocol (MCP), FastMCP, and CodexCLI to automate segmentation, skeletonization, visualization, and reporting for a 519-million-voxel X-ray CT dataset.",
+          "Developed a validation framework that compared CT-detected defect candidates against CAD-derived geometry containing 18,468 struts, 10,206 junctions, and 93intentionally removed struts, whileaccounting forscan-boundary uncertainty.",
+          "Developed an interactive Dash and Plotly application for filtering and visualizing 3D defect candidates, searching by element ID or voxel coordinates, and inspecting full-resolution CT evidence across XY, XZ, and YZ planes.",
+        ],
+      },
+    ],
+  },
+  {
     logo: UCRLogo,
     logoAlt: "UCR Logo",
     org: "UCR Geospacial Assessibility Lab",
@@ -29,7 +46,7 @@ const experiences = [
         title: "Undergraduate Researcher",
         date: "Jan 2026 — Present",
         bullets: [
-          "Performing data validation for a large-scale Geospatial AI dataset, manually verifying and correcting 8,000+ LLM-generated questions and answers to improve model accuracy.",
+          "Performing data validation for a large-scale Geospatial AI dataset, manually verifying and correcting 5,000+ LLM-generated questions and answers to improve model accuracy.",
           "Collaborating to refine training data for Vision-Language Models, focusing on AI interpretation of map-based navigation and spatial reasoning.",
           "Ensuring high-quality ground truth data for the MapBench project, a benchmark used to evaluate AI's ability to follow human-readable directions.",
         ],
